@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+                android:text="Course Code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_coursecode_textview"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+                android:text="Description"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_description_textview"
+                android:layout_weight="1"
+                android:gravity="center|start" android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editfrag_edit_description" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+                android:text="Mark"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_mark_textview" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center|start"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editfrag_edit_mark" android:layout_weight="1"/>
+        <Switch
+                android:text="WD'ed?"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_wd_switch" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+                android:text="Term"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_term_textview" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center|start"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_term_spinner"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="CANCEL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_cancel" android:layout_weight="1"/>
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" android:layout_weight="1"/>
+        <Button
+                android:text="SUBMIT"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/editfrag_submit" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
