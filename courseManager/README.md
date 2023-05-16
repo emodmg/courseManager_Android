@@ -14,5 +14,4 @@
 
 
 ## overview
-* This is an Android app designed to manage University Courses. There are 1 main activity and 3 Fragments. Screenshots of the
-* app running are saved in the demo folder.
+* This is an Android app designed to manage University Courses. There are 1 main activity and 3 Fragments. Screenshots of the app running are saved in the demo folder.
