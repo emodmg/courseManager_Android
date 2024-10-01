@@ -19,7 +19,7 @@ class MyViewModel : ViewModel() {
 //
 //    val model : LiveData<Model> get() {
 //        return _model
-//    }
+//    } // this getter can be removed
 
     private val _modelUpdateDetector = MutableLiveData<Int>(0)
 
